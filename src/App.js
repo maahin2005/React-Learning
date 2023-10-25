@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>My React Learning Journey</p>
-        <Home />
-        <Home1 />
+        <Home name="John_0" />
+        <Home1 name="John" />
       </header>
     </div>
   );
