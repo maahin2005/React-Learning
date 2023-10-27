@@ -3,6 +3,7 @@
 import Home from "./components/home";
 import Home1 from "./components/Home1";
 import LearningState from "./components/LearningState";
+import LearnStateWithClass from "./components/ClassState";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Home1 name="John" />
         <hr />
         <LearningState />
+        <hr />
+        <LearnStateWithClass />
       </header>
     </div>
   );
